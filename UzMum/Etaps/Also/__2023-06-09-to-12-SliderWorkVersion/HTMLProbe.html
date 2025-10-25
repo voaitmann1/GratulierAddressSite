@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Simple XHTMl Document</title>
+		<!-- <link href="./assets/CSS/styles.css" rel="stylesheet" type="text/css"> -->
+		<style type="text/css">
+			<!--section{
+				display: block;
+			}-->
+			.cColumns{
+				display: inline-block;
+				width: 33vh;
+			}
+			header{
+				height: 100vh;
+				padding-top: 40vh;
+				background-color:grey;
+				text-align:center;
+			}
+			p.cButton{
+				background-color: white;
+				text-color: blue;
+				border-style: solid;
+				border-color: blue;
+				border-radius: 6px;
+				padding-top: 28px;
+				padding-bottom: 28px;
+				width: 120px;
+				text-decoration: none;
+				margin-left: 48vh;
+			}
+			p.cButton:hover{
+				text-color: red;
+				/*width: 250px;*/
+				background-color:grey;
+			}
+			/**/
+			article{
+				position:relative;
+			}
+			img{
+				width:800px;/*80%*//*500px;*/
+				height:500px;/*20%;*/ /*200px;*/
+			}
+			.graphicsContainer{
+				width:800px;
+				height:600px;
+				/*position :relative;*/
+			}
+			.Button{
+				position: absolute;
+				border-radius:50%;
+				background-color:blue;
+				color:white;
+				top:50%;
+				z-index:+1;
+				border-width:0;
+				width:40px;
+				height: 40px;
+			}
+			.Button:hover{
+				background-color:grey;
+			}
+			.leftButton{
+				left: 50px;
+			}
+			.rightButton{
+				/*right: 50px;*/
+				left: 750px;
+			}
+			.sectionVisible{
+				position: relative;
+			}
+			.sectionInvisible{
+				display: none;
+			}
+			h2{
+				height: 20px;
+			}
+		</style>
+    </head>
+    <body>
+	<article>
+		<button class="Button leftButton">
+			<
+		</button>
+		<button class="Button rightButton">
+			>
+		</button> 
+		<h1>Enjoy machines power and design!</h1>
+		<input type="Checkbox"  id="timeoutSwitcher"  checked/>
+		<!-- <input type="Button" label=" set timeout" id="setTimeoutBtn"/> -->
+		<button id="setTimeoutBtn">
+			set timeout
+		</button> 
+		<section class="sectionVisible">
+			<h2>
+				Aston Martin
+			</h2>
+			<div class="graphicsContainer">
+				<img src="./img/AstonMartin.jpeg" alt="AstonMartin"/>
+				<!--<button class="Button leftButton">
+				<
+				</button>
+				<button class="Button rightButton">
+				>
+				</button> -->
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet
+				This is a good car	
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				Audi R8
+			</h2>
+			<img src="./img/Audi_R8_.jfif" alt="/Audi_R8_"/>
+			<p>
+				Lorem ipsum dolor sit amet
+				This is a good car
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				Chevrolet Camaro
+			</h2>
+			<img src="./img/ChevroletCamaro.jfif" alt="ChevroletCamaro"/>
+			<p>
+				Lorem ipsum dolor sit amet
+				This is a good car				
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				Ford Mustang
+			</h2>
+			<img src="./img/FordMustang.jfif" alt="FordMustang"/>
+			<p>
+				Lorem ipsum dolor sit amet
+				This is a good car 				
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				Lamborghini Aventador SVJ
+			</h2>
+			<img src="./img/Lamborghini_Aventador_SVJ.jfif" alt="Lamborghini_Aventador_SVJ"/>
+			<p>
+				Lorem ipsum dolor sit amet
+				This is a good car				
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				Mercedes Benz 350 SDL
+			</h2>
+			<img src="./img/Mercedes_Benz_350_SDL.jfif" alt="Mercedes_Benz_350_SDL"/>
+			<p>
+				Lorem ipsum dolor sit amet
+				This is a good car
+			</p>
+		</section>
+	</article>
+	<script src="index.js"></script> 
+	</body>
+</html>

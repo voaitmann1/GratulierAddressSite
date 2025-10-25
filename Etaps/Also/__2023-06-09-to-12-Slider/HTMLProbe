@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Simple XHTMl Document</title>
+		<link href="./assets/CSS/styles.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			<!--section{
+				display: block;
+			}-->
+			.cColumns{
+				display: inline-block;
+				width: 33vh;
+			}
+			header{
+				height: 100vh;
+				padding-top: 40vh;
+				background-color:grey;
+				text-align:center;
+			}
+			p.cButton{
+				background-color: white;
+				text-color: blue;
+				border-style: solid;
+				border-color: blue;
+				border-radius: 6px;
+				padding-top: 28px;
+				padding-bottom: 28px;
+				width: 120px;
+				text-decoration: none;
+				margin-left: 48vh;
+			}
+			p.cButton:hover{
+				text-color: red;
+				/*width: 250px;*/
+				background-color:grey;
+			}
+			.sectionVisible{
+			
+			}
+			.sectionInvisible{
+				display: none;
+			}
+		</style>
+    </head>
+    <body>
+		<section class=sectionVisible>
+			<h2>
+				Antennae Galaxies
+			</h2>
+			<p>
+				This merging pair of galaxies is one
+				of the nearest and youngest examples of colliding galaxies	
+			</p>
+		</section>
+		<section class=sectionInvisible>
+			<h2>
+				ARP 273
+			</h2>
+			<p>
+				The interacting galaxy pair Arp 273 features the rose-shaped 
+				disk of the larger galaxy, which uis distorted by gravitational pull of the companion glaxy below it	
+			</p>
+		</section>
+		<section class=sectionInvisible>
+			<h2>
+				CARINA NEBULA
+			</h2>
+			<p>
+				This is a 50-light-year-wide view of the central region of the Carina Nebula, where a maelstrom of 
+				star birth and death is occuring. The mosaic is stitched together from 48 individual Hubble images. 
+				The future WFIRST mission could cover twice this area in one pointing, giving a more complete 
+				understanding of what is happening in and around the nebula 				
+			</p>
+		</section>
+		<section class=sectionInvisible>
+			<h2>
+				LAGOON NEBULA
+			</h2>
+			<p>
+				The Lagoon Nebula, a vast stellar nursery located 4,000 light-years away, provides an extraordinary 
+				tapestry of star birth 				
+			</p>
+		</section>
+		<section class=sectionInvisible>
+			<h2>
+				MONKEY HEAD NEBULA
+			</h2>
+			<p>
+				This Hubble mosaicunveils a rolling region of star birth in small portion of the Monkey Head Nebula 				
+			</p>
+		</section>
+	</body>
+</html>

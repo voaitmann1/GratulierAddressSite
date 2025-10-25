@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Simple XHTMl Document</title>
+		<!-- <link href="./assets/CSS/styles.css" rel="stylesheet" type="text/css"> -->
+		<style type="text/css">
+			<!--section{
+				display: block;
+			}-->
+			.cColumns{
+				display: inline-block;
+				width: 33vh;
+			}
+			header{
+				height: 100vh;
+				padding-top: 40vh;
+				background-color:grey;
+				text-align:center;
+			}
+			p.cButton{
+				background-color: white;
+				text-color: blue;
+				border-style: solid;
+				border-color: blue;
+				border-radius: 6px;
+				padding-top: 28px;
+				padding-bottom: 28px;
+				width: 120px;
+				text-decoration: none;
+				margin-left: 48vh;
+			}
+			p.cButton:hover{
+				text-color: red;
+				/*width: 250px;*/
+				background-color:grey;
+			}
+			/**/
+			article{
+				position:relative;
+			}
+			img{
+				width:800px;/*80%*//*500px;*/
+				height:300px;/*20%;*/ /*200px;*/
+			}
+			.graphicsContainer{
+				width:800px;
+				height:300px;
+				/*position :relative;*/
+			}
+			.Button{
+				position: absolute;
+				border-radius:50%;
+				background-color:blue;
+				color:white;
+				top:50%;
+				z-index:+1;
+				border-width:0;
+				width:40px;
+				height: 40px;
+			}
+			.Button:hover{
+				background-color:grey;
+			}
+			.leftButton{
+				left: 50px;
+			}
+			.rightButton{
+				right: 50px;
+			}
+			.sectionVisible{
+				position: relative;
+			}
+			.sectionInvisible{
+				display: none;
+			}
+			h2{
+				height: 20px;
+			}
+		</style>
+    </head>
+    <body>
+	<article>
+		<button class="Button leftButton">
+			<
+		</button>
+		<button class="Button rightButton">
+			>
+		</button> 
+		<h1>Enjoy our Universe!</h1>
+		<input type="Checkbox"  id="timeoutSwitcher"  checked/>
+		<!-- <input type="Button" label=" set timeout" id="setTimeoutBtn"/> -->
+		<button id="setTimeoutBtn">
+			set timeout
+		</button> 
+		<section class="sectionVisible">
+			<h2>
+				ANTENNAE GALAXIES
+			</h2>
+			<div class="graphicsContainer">
+				<img src="./img/hubble-30th-antennae-galaxies.jpg" alt="Antennae Galaxies"/>
+				<!--<button class="Button leftButton">
+				<
+				</button>
+				<button class="Button rightButton">
+				>
+				</button> -->
+			</div>
+			<p>
+				This merging pair of galaxies is one
+				of the nearest and youngest examples of colliding galaxies	
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				ARP 273
+			</h2>
+			<img src="./img/hubble-30th-arp-273.jpg" alt="ARP 273"/>
+			<p>
+				The interacting galaxy pair Arp 273 features the rose-shaped 
+				disk of the larger galaxy, which uis distorted by gravitational pull of the companion glaxy below it	
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				CARINA NEBULA
+			</h2>
+			<img src="./img/hubble-30th-carina-nebula.jpg" alt="carina nebula"/>
+			<p>
+				This is a 50-light-year-wide view of the central region of the Carina Nebula, where a maelstrom of 
+				star birth and death is occuring. The mosaic is stitched together from 48 individual Hubble images. 
+				The future WFIRST mission could cover twice this area in one pointing, giving a more complete 
+				understanding of what is happening in and around the nebula 				
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				LAGOON NEBULA
+			</h2>
+			<img src="./img/hubble-30th-lagoon-nebula.jpg" alt="lagoon nebula"/>
+			<p>
+				The Lagoon Nebula, a vast stellar nursery located 4,000 light-years away, provides an extraordinary 
+				tapestry of star birth 				
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				MONKEY HEAD NEBULA
+			</h2>
+			<img src="./img/hubble-30th-monkey-head.jpg" alt="monkey head"/>
+			<p>
+				This Hubble mosaicunveils a rolling region of star birth in small portion of the Monkey Head Nebula 				
+			</p>
+		</section>
+		<section class="sectionInvisible">
+			<h2>
+				V838 MONOCEROTIS
+			</h2>
+			<img src="./img/hubble-30th-v838-monocerotis.jpg" alt="v838-monocerotis"/>
+			<p>
+				Hubble viewed an expanding halo of light, called a light echo, around the distant star V838 Monocerotis.
+				The telescope's longevity allowed observations over many years, showing how the light echo travelled through
+				space and time.
+			</p>
+		</section>
+	</article>
+	<script src="index.js"></script>
+	</body>
+</html>

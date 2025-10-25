@@ -1,0 +1,62 @@
+
+
+
+body {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  <!--background: #660000;/-->
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('suppl/bg1.jpg');
+}
+
+.ImgToPage_PropsAlOfSlide{
+	width: 30%;
+  border-radius: 20px;
+  margin:10px;
+ margin-left: 20%
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.ImgToPage_PropsAlOfSlide_1{
+	
+	width: 30%;
+  border-radius: 20px;
+  margin:10px;
+ margin-left: 20%;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.ImgToPage_PropsAlOfSlide_2{
+	
+	width: 30%;
+  border-radius: 20px;
+  
+  top: 140%;
+   
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
