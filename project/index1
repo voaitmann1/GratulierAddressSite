@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Поздравительный адрес</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="main-frame">
+    
+    <!-- Левая рамка — авторы -->
+    <div class="authors-section">
+      <div class="authors-header">Авторы</div>
+
+      <div class="authors-carousel">
+        <button class="arrow left-arrow" id="prevAuthor">
+          <img src="left-arrow.png" alt="←">
+        </button>
+
+        <div class="authors-list" id="authorsList">
+          <div class="author active" data-author="1">
+            <img src="author1.jpg" alt="Автор 1">
+            <div class="author-name">Автор 1</div>
+          </div>
+          <div class="author" data-author="2">
+            <img src="author2.jpg" alt="Автор 2">
+            <div class="author-name">Автор 2</div>
+          </div>
+          <div class="author" data-author="3">
+            <img src="author3.jpg" alt="Автор 3">
+            <div class="author-name">Автор 3</div>
+          </div>
+        </div>
+
+        <button class="arrow right-arrow" id="nextAuthor">
+          <img src="right-arrow.png" alt="→">
+        </button>
+      </div>
+    </div>
+
+    <!-- Правая рамка — галерея -->
+    <div class="gallery-section">
+      <div class="gallery-header">Поздравления</div>
+
+      <div class="gallery-container" id="galleryContainer">
+        <!-- Галерея автора 1 -->
+        <div class="gallery active" data-author="1">
+          <div class="slide active">
+            <img src="greeting1_1.jpg" alt="Поздравление 1">
+          </div>
+          <div class="slide">
+            <div class="text-slide">
+              <p>Дорогой юбиляр! Пусть этот день принесёт радость и тепло...</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="greeting1_2.jpg" alt="Фото 2">
+          </div>
+        </div>
+
+        <!-- Галерея автора 2 -->
+        <div class="gallery" data-author="2">
+          <div class="slide active">
+            <img src="greeting2_1.jpg" alt="Поздравление 1">
+          </div>
+          <div class="slide">
+            <div class="text-slide">
+              <p>С пожеланиями счастья и вдохновения!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Галерея автора 3 -->
+        <div class="gallery" data-author="3">
+          <div class="slide active">
+            <img src="greeting3_1.jpg" alt="Поздравление 1">
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-nav">
+        <button id="prevSlide" class="arrow"><img src="left-arrow.png" alt="←"></button>
+        <button id="nextSlide" class="arrow"><img src="right-arrow.png" alt="→"></button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
